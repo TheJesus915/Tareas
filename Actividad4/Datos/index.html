@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Datos</h1>
+        <form>
+            <div class="form-grup">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>    
+            <div class="form-grup">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-grup">
+                <label for="url">Url:</label>
+                <input type="url" id="url" name="url" required>
+            </div>
+            <div class="form-grup">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-grup">
+                <label for="tiempo">Tiempo:</label>
+                <input type="time" id="tiempo" name="tiempo" required>
+            </div>
+            <div class="form-grup">
+                <label for="fecha-hora">Fecha y Hora:</label>
+                <input type="datetime-local" id="fecha-hora" name="fecha-hora" required>
+            </div>
+            <div class="form-grup">
+                <label for="mes">Mes:</label>
+                <input type="month" id="mes" name="mes" required>
+            </div>
+            <div class="form-grup">
+                <label for="semana">Semana:</label>
+                <input type="week" id="semana" name="semana" required>
+            </div>
+            <div class="form-grup">
+                <label for="numero">Numero (max 10 min -10):</label>
+                <input type="number" id="numero" name="numero" min="-10" max="10" required>
+            </div>
+            <div class="form-grup">
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="form-grup">
+                <label for="termino-de-busqueda">Termino de busqueda:</label>
+                <input type="search" id="termino-de-busqueda" name="termino-de-busqueda" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="color-favorito">Color Favorito:</label>
+              <input type="color" id="color-favorito" name="color-favorito" required>
+            </div>
+            <br>
+            <input type="submit" value="Enviar">
+            </form>
+            </div>
+</body>
+</html>

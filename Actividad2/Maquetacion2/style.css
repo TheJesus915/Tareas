@@ -1,0 +1,94 @@
+body{
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    float: left;
+}
+header{
+    width: 750px;
+    height: 250px;
+    background-color:blue;
+    border: 15px solid rgb(0, 0, 0);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+    #Banner{
+        width: 500px;
+        height: 235px;
+        background-color: rgb(255, 255, 255);
+        border: 9px solid rgb(2, 17, 100);
+        margin: -8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;    
+    }
+    #Logo{
+        width: 250px;
+        height: 235px;
+        background-color: rgb(255, 255, 255);
+        border: 9px solid rgb(2, 17, 100);
+        margin: -8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;  
+    }
+ nav{
+    width: 750px;
+    height: 50px;
+    background-color:green;
+    border: 15px solid rgb(0, 0, 0);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+ } 
+ main{
+    width: 750px;
+    height: 400px;
+    background-color:grey;
+    border: 15px solid rgb(0, 0, 0);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+ }  
+Article{
+    width: 450px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    border: 16px solid rgb(137, 138, 163);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;         
+    }
+Aside{
+    width: 250px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    border: 16px solid rgb(137, 138, 163);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;      
+}
+Footer{
+    width: 750px;
+    height: 50px;
+    background-color: rgb(255, 255, 0);
+    border: 14px solid rgb(0, 0, 0);
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;     
+}
