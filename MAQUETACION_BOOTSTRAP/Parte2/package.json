@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content practicaBoots.html --output sass/reducido.css"
+  }
+}
