@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  #titulo {
+    font-size: 28px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .rojo {
+    color: #ff0000;
+  }
+  
+  /* Estilos para las listas */
+  ul.list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  ul.list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="color"] {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la imagen */
+  #imgcontainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #imgimagin {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  #imgimagin:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para el texto arcoiris */
+  .textoArcoiris {
+    background: linear-gradient(to right, #ff4b2b, #ff416c, #ff36ad, #cb33d6, #9c36ff, #6c49ff, #415dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
